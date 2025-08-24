@@ -547,6 +547,7 @@ export default function VideoMeetComponent() {
                     label="Enter Your chat"
                     variant="outlined"
                   />
+                  &nbsp; &nbsp; &nbsp;
                   <Button variant="contained" onClick={sendMessage}>
                     Send
                   </Button>
