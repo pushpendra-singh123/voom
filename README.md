@@ -7,7 +7,7 @@
 - [Backend Branch](https://github.com/pushpendra-singh123/voom/tree/backend)  
 
 ## 📄 Project Flow Diagram  
-![VOOM Project Flow Diagram](https://github.com/pushpendra-singh123/voom/blob/frontend/public/VOOM.pdf)  
+![VOOM Project Flow Diagram](https://github.com/pushpendra-singh123/voom/blob/frontend/public/CFD.png)  
 
 ## 🚀 Features  
 - Designed a modern, responsive UI with **React.js** and **styled-components** for a smooth user experience.  
