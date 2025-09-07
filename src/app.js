@@ -24,10 +24,12 @@ app.use(express.urlencoded({ limit: "100kb", extended: true }));
 
 app.use("/api/v1/users", userRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server started successfully at ${PORT}`);
-});
-
-//connect to the database
-import dbConnect from "../config/database.js";
-dbConnect();
+const start = async () => {
+  app.set("mongo_user");
+  const connectionDb = await mongoose.connect(MONGO_URI);
+  console.log(`MONGO Connected DB HOst: ${connectionDb.connection.host}`);
+  server.listen(app.get("port"), () => {
+    console.log("LISTENIN ON PORT 8000");
+  });
+};
+start();
