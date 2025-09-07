@@ -2,9 +2,9 @@
 
 ## 🔗 Live Demo → [VOOM](https://voom-6tn6.onrender.com)
 
-## 📂 GitHub Repositories  
-- [Frontend Branch](https://github.com/pushpendra-singh123/voom/tree/frontend)  
-- [Backend Branch](https://github.com/pushpendra-singh123/voom/tree/backend)  
+## 
+- [Frontend](https://github.com/pushpendra-singh123/voom/tree/frontend)  
+- [Backend ](https://github.com/pushpendra-singh123/voom/tree/backend)  
 
 ## 📄 Project Flow Diagram  
 ![VOOM Project Flow Diagram](https://github.com/pushpendra-singh123/voom/blob/frontend/public/CFD.png)  
